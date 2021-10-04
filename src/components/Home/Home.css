@@ -1,3 +1,5 @@
+/* banner section style */
+
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.63)), url("../../img/banner-image.jpg");
   height: 50%;
@@ -24,6 +26,8 @@
   color: rgb(24, 1, 1);
 }
 
+
+/* button style */
 .button{
   transition: transform 1s;
 }

@@ -4,10 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faDollarSign, } from '@fortawesome/free-solid-svg-icons'
 
 const Service = (props) => {
+
+    //destructuring props
     const { picture, name, time, price, description } = props.service;
+
+    //font awesome icon
     const clockIcon = <FontAwesomeIcon icon={faClock} />
     const dollerIcon = <FontAwesomeIcon icon={faDollarSign} />
+
     return (
+
+        //service
         <div class="card-group service-cards">
             <div class="card">
                 <img src={picture} class="card-img-top" alt="Paint" />
@@ -17,6 +24,8 @@ const Service = (props) => {
                     <p class="card-text text-start fs-3">{dollerIcon} {price}</p>
                     <p class="card-text text-start">{description}</p>
                 </div>
+
+                {/* apply now button */}
                 <div class="card-footer bg-primary bg-opacity-10 button">
                     <button className="btn w-100">Apply Now</button>
                 </div>

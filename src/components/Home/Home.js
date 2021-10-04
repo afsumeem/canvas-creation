@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import image from '../../img/img13.jpg';
 
+import image from '../../img/img13.jpg';
 import galleryImg3 from '../../img/img-3.jpg';
 import galleryImg6 from '../../img/img-6.jpg';
 import galleryImg7 from '../../img/img-7.jpg';
@@ -12,6 +12,7 @@ import Service from '../Service/Service';
 
 const Home = () => {
 
+    // fetch data from json file
     const [services, setServices] = useState([])
     const slicedServices = services.slice(1, 5);
     useEffect(() => {
@@ -21,6 +22,8 @@ const Home = () => {
     }, [])
 
     return (
+
+        // home section
         <div className="mb-5">
             <div className="banner">
                 <div className="banner-text">
@@ -30,6 +33,7 @@ const Home = () => {
                 </div >
             </div>
 
+            {/* enroll section */}
             <div className="row bg-primary bg-opacity-25">
                 <div className="col-md-3">
                     <img src={image} className="img-fluid rounded-circle h-75 mt-4" alt="" />
@@ -43,8 +47,9 @@ const Home = () => {
                 <div className="col-md-3 mt-5">
                     <Link to="/contact" className="btn border border-2 border-primary rounded-pill mt-4"> CONTACT US</Link>
                 </div>
-
             </div>
+
+            {/* service section */}
             <div className="mt-5 container">
                 <h2 className="fw-bolder text-start font-monospace">Our Services</h2>
 
@@ -61,6 +66,7 @@ const Home = () => {
                 <Link className="mt-5 mx-auto btn btn-primary w-50" to="/services">More Services</Link>
             </div>
 
+            {/* gallery section */}
             <div className="container mt-5">
                 <h2 className="my-5 text-start fw-bolder font-monospace">Gallery</h2>
                 <div className="mt-5">

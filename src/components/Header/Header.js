@@ -13,8 +13,12 @@ const Header = () => {
     };
 
     return (
+
+        // Header section
         <div className="container=fluid" >
             <div className="h-25">
+
+                {/* navbar */}
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark bg-opacity-75 fixed-top">
                     <div className="container-fluid">
                         <img className="logo" src={logo} alt="" />
@@ -37,6 +41,8 @@ const Header = () => {
                                     <NavLink className="nav-link  fs-5 text-white" activeStyle={activeStyle} to="/contact">Contact us</NavLink>
                                 </li>
                             </ul>
+
+                            {/* search bar */}
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                                 <button className="btn btn-outline-primary" type="submit">Search</button>

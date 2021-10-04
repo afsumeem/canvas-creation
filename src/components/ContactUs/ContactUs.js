@@ -3,10 +3,15 @@ import './ContactUs.css'
 
 const ContactUs = () => {
     return (
+
+        // contact us sesction
         <div className="bg-primary bg-opacity-10">
             <div className="w-50 mx-auto p-5 mb-0 text-start ">
                 <h3 className="contact-us fw-bolder font-monospace">Contact us</h3>
                 <p className="text-secondary">Please use this form to contact us and we will get back to you as soon as possible!</p>
+
+
+                {/* contact us form */}
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control rounded" id="floatingInput" placeholder="Your name" />
                     <label for="floatingInput">Your Name</label>
@@ -24,6 +29,8 @@ const ContactUs = () => {
                     <textarea class="form-control rounded py-4" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                     <label for="floatingTextarea">Your Comments</label>
                 </div>
+
+                {/* submit button */}
                 <button className="btn btn-primary mx-auto py-2 w-100">Submit</button>
 
             </div>

@@ -1,7 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Switch, Route
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import ContactUs from './components/ContactUs/ContactUs';
@@ -14,6 +11,8 @@ import Services from './components/Services/Services';
 function App() {
   return (
     <div className="App">
+
+      {/* router */}
 
       <Router>
         <Header></Header>
