@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "615a32aab5600df25276b43d",
+    "price": "1,834.75",
+    "picture": "./images/img-1.jpg",
+    "name": "Anatomical Drawing",
+    "time": "10am - 5pm",
+    "description": "Designed to inspire and engage, our popular series of one day workshops are perfect for those wishing to try something a little bit different in weekly course. "
+  },
+  {
+    "_id": "615a32aa4f24125a16cfe3a1",
+    "price": "1,002.81",
+    "picture": "./images/img-2.jpg",
+    "name": "Carving in Wood",
+    "time": "11am - 5pm",
+    "description": "Termly art classes in a creative and supportive environment - for ages eight and above, with advanced classes for secondary school age children."
+  },
+  {
+    "_id": "615a32aa8e0b766fa13d77b2",
+    "price": "3,635.94",
+    "picture": "./images/img-3.jpg",
+    "name": "Paintinf,Drawing,Design,Color",
+    "time": "11am - 4pm",
+    "description": "Learn to draw from scratch and simple techniques to improve your creative skills. Learn to draw from scratch and simple techniques to improve skills"
+  },
+  {
+    "_id": "615a32aaadd01fa4dd89ffa1",
+    "price": "2,077.36",
+    "picture": "./images/img-4.jpg",
+    "name": "Drawing Internal Landscapes",
+    "time": "12am - 6pm",
+    "description": "Whether you're a beginner or a career artist looking for new insights into better drawing skills, arts academy has a course to help your drawing flourish."
+  },
+  {
+    "_id": "615a32aabe07d8a96aacbf10",
+    "price": "3,737.35",
+    "picture": "./images/img-5.jpg",
+    "name": "Memory and Imagination",
+    "time": "10am - 5pm",
+    "description": "Whether you're a beginner or a career artist looking for new insights into better drawing skills, Art Academy has a course to help your drawing flourish."
+  },
+  {
+    "_id": "615a32aa2e817c2147dec65b",
+    "price": "3,480.60",
+    "picture": "./images/img-6.jpg",
+    "name": "Drawing the Contemporary Portrait",
+    "time": "11am - 4pm",
+    "description": "With these Skillshare classes, you can explore a range of art topics, from drawing and painting, to lettering and fine art in this academy."
+  },
+  {
+    "_id": "615a32aa35e92ea0c238c023",
+    "price": "2,787.77",
+    "picture": "./images/img-7.jpg",
+    "name": "Graphic Narratives",
+    "time": "10am - 5pm",
+    "description": "Fine-art drawing and illustration course. Drawing is a form of expression.Certificate in Drawing & Illustration. Drawing is a form of expression."
+  },
+  {
+    "_id": "615a32aa0304f0f37a311e16",
+    "price": "2,162.56",
+    "picture": "./images/img-8.jpg",
+    "name": "Free Etching for Students",
+    "time": "12am - 3pm",
+    "description": "We offer daytime and evening courses in drawing suitable for all levels, from complete beginners to experienced artists and creative professionals."
+  },
+  {
+    "_id": "615a32aac11b5f62c44ee21b",
+    "price": "3,342.03",
+    "picture": "./images/img-9.jpg",
+    "name": "Saturday Etching",
+    "time": "11am - 6pm",
+    "description": "With these Skillshare classes, you can explore a range of art topics, from drawing and painting, to lettering and fine art in this academy."
+  },
+  {
+    "_id": "615a32aae9ff30f89815c8fa",
+    "price": "1,516.29",
+    "picture": "./images/img-10.jpg",
+    "name": "Drawing and Memories",
+    "time": "10am - 5pm",
+    "description": "We offer daytime and evening courses in drawing suitable for all levels, from complete beginners to experienced artists and creative professionals."
+  },
+  {
+    "_id": "615a32aa64e71e7be24f9291",
+    "price": "2,146.48",
+    "picture": "./images/img-11.jpg",
+    "name": "Arts From Life",
+    "time": "9am - 4pm",
+    "description": "With these Skillshare classes, you can explore a range of art topics, from drawing and painting, to lettering and fine art in this academy."
+  },
+  {
+    "_id": "615a32aa563f16f94978292f",
+    "price": "2,055.44",
+    "picture": "./images/img-12.jpg",
+    "name": "Three-Dimensional Sculpture",
+    "time": "11am - 6pm",
+    "description": "We offer daytime and evening courses in drawing suitable for all levels, from complete beginners to experienced artists and creative professionals."
+  }
+]

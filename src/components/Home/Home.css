@@ -1,0 +1,32 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.63)), url("../../img/banner-image.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 650px;
+  width: 100%;
+}
+.banner h1{
+    font-size:70px;
+    transition: transform 1.5s ease;
+}
+.banner h1:hover{
+  transform: translate(-50px);
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(24, 1, 1);
+}
+
+.button{
+  transition: transform 1s;
+}
+.button:hover{
+transform: scale(1.1);
+}
