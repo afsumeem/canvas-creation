@@ -29,7 +29,7 @@ const Home = () => {
                 <div className="banner-text">
                     < h1 className="fw-bolder text-white" > Canvas Creations</h1 >
                     <br />
-                    <button className="btn btn-primary button">More about us</button>
+                    <button className="btn btn-primary button">Learn More</button>
                 </div >
             </div>
 
