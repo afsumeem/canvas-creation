@@ -34,9 +34,9 @@ const Home = () => {
             </div>
 
             {/* enroll section */}
-            <div className="row bg-primary bg-opacity-25">
+            <div className="row bg-primary bg-opacity-25 m-0">
                 <div className="col-md-3 col-sm-12">
-                    <img src={image} className="img-fluid rounded-circle h-75 mt-4" alt="" />
+                    <img src={image} className=" rounded-circle h-75 mt-4" alt="img" />
                 </div>
 
                 <div className="col-md-5 text-start mt-5 mx-5 col-sm-12">
