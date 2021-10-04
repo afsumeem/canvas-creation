@@ -10,12 +10,14 @@
   height: 650px;
   width: 100%;
 }
+
+/* banner text style */
 .banner h1{
     font-size:70px;
-    transition: transform 1.5s ease;
+    transition: transform 1s;
 }
 .banner h1:hover{
-  transform: translate(-50px);
+  transform: scale(1.2);
 }
 
 .banner-text {
