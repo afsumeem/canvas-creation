@@ -15,19 +15,19 @@ const Service = (props) => {
     return (
 
         //service
-        <div class="card-group service-cards">
-            <div class="card">
-                <img src={picture} class="card-img-top" alt="Paint" />
-                <div class="card-body">
-                    <h5 class="card-title text-start mb-3">{name}</h5>
-                    <p class="card-text text-start">{clockIcon} {time}</p>
-                    <p class="card-text text-start fs-3">{dollerIcon} {price}</p>
-                    <p class="card-text text-start">{description}</p>
+        <div className="card-group service-cards">
+            <div className="card">
+                <img src={picture} className="card-img-top" alt="Paint" />
+                <div className="card-body">
+                    <h5 className="card-title text-start mb-3">{name}</h5>
+                    <p className="card-text text-start">{clockIcon} {time}</p>
+                    <p className="card-text text-start fs-3">{dollerIcon} {price}</p>
+                    <p className="card-text text-start">{description}</p>
                 </div>
 
                 {/* apply now button */}
-                <div class="card-footer bg-primary bg-opacity-10 button">
-                    <button className="btn w-100">Apply Now</button>
+                <div className="card-footer bg-primary bg-opacity-10">
+                    <button className="btn w-100 fw-bolder">APPLY NOW</button>
                 </div>
             </div>
         </div>

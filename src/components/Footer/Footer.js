@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
