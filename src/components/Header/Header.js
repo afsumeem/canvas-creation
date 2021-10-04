@@ -6,7 +6,6 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
 
     const activeStyle = {
-        color: "white",
         backgroundColor: 'black',
         borderRadius: '5px',
         margin: '5px'
@@ -28,17 +27,17 @@ const Header = () => {
 
                         <div className="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                <li className="nav-item menu-item">
-                                    <NavLink className="nav-link fs-5 text-white" activeStyle={activeStyle} to="/home">Home</NavLink>
+                                <li className="nav-item mx-2 ">
+                                    <NavLink className="nav-link menu-item fs-5 text-white " activeStyle={activeStyle} to="/home">Home</NavLink>
                                 </li>
-                                <li className="nav-item menu-item">
-                                    <NavLink className="nav-link  fs-5 text-white" activeStyle={activeStyle} to="/about">About us</NavLink>
+                                <li className="nav-item mx-2">
+                                    <NavLink className="nav-link menu-item fs-5 text-white" activeStyle={activeStyle} to="/about">About us</NavLink>
                                 </li>
-                                <li className="nav-item menu-item">
-                                    <NavLink className="nav-link  fs-5 text-white" activeStyle={activeStyle} to="/service">Services</NavLink>
+                                <li className="nav-item mx-2">
+                                    <NavLink className="nav-link menu-item fs-5 text-white" activeStyle={activeStyle} to="/service">Services</NavLink>
                                 </li>
-                                <li className="nav-item menu-item">
-                                    <NavLink className="nav-link  fs-5 text-white" activeStyle={activeStyle} to="/contact">Contact us</NavLink>
+                                <li className="nav-item mx-2">
+                                    <NavLink className="nav-link menu-item fs-5 text-white" activeStyle={activeStyle} to="/contact">Contact us</NavLink>
                                 </li>
                             </ul>
 

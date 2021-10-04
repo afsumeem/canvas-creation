@@ -35,16 +35,16 @@ const Home = () => {
 
             {/* enroll section */}
             <div className="row bg-primary bg-opacity-25">
-                <div className="col-md-3">
+                <div className="col-md-3 col-sm-12">
                     <img src={image} className="img-fluid rounded-circle h-75 mt-4" alt="" />
                 </div>
 
-                <div className="col-md-5 text-start mt-5">
+                <div className="col-md-5 text-start mt-5 mx-5 col-sm-12">
                     <h3>Enroll a Student</h3>
                     <p className="text-secondary">At the bachelor's degree level, students can choose drawing and painting as a concentration within a broader art major.</p>
                 </div>
 
-                <div className="col-md-3 mt-5">
+                <div className="col-md-3 mt-5 col-sm-12">
                     <Link to="/contact" className="btn border border-2 border-primary rounded-pill mt-4"> CONTACT US</Link>
                 </div>
             </div>
